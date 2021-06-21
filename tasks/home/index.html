@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+//1) --створити масив з:
+// - з 5 числових значень
+// - з 5 стічкових значень
+// - з 5 значень стрічкового, числового та булевого типу
+// - та вивести його в консоль
+
+        // let arr = [32, 323, 21, 56, 42];
+        // console.log(arr);
+        // let arr2 = ['hi', 'hello', 'Ben', 'John', 'bye'];
+        // console.log(arr2);
+        // let arr3 = [true, 'java', 54, false, 65];
+        // console.log(arr3);
+
+//2) -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
+
+        // let arr = [];
+        // arr[0] = true;
+        // arr[1] = 'hello';
+        // arr[2] = 43;
+        // arr[3] = false;
+        // arr[4] = NaN;
+        // console.log(arr);
+
+//3) - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині 
+
+        // for (i = 0; i < 10; i++) {
+        //     document.write('<div>Hello</div>');
+        // };
+
+//4) - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+
+        // for (i = 0; i < 10; i++) {
+        //      document.write(`<div>Hello ${i}</div>`);
+        //  };
+
+//5) - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.  
+
+        // let i = 0;
+        // while (i < 20) {
+        //     document.write('<h1>Hello</h1>');
+        //     i++;
+        // }
+
+//6) - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+
+        // let i = 0;
+        // while (i < 20) {
+        //     document.write(`<h1>Hello ${i}</h1>`);
+        //     i++;
+        // }
+
+//7) - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
+
+            // let arr = [421, 4, 2, 1, 5, 25, 424, 0, 56, 131];
+            // for (let i = 0; i < arr.length; i++) {
+            //     console.log(arr[i]);
+            // }
+
+//8) - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
+
+            //let arr = ['hi', 'no', 'daf', 'ca', 'tgs', 'john', 'boss', 'tgdf', 'lof', 'lond'];
+            //     for (let i = 0; i < arr.length; i++) {
+            //     console.log(arr[i]);
+            //  }
+
+//9) - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
+
+            //  let arr = ['hi', 2, true, NaN, -83, false, 'boss', undefined, null, 'lond'];
+            //     for (let i = 0; i < arr.length; i++) {
+            //     console.log(arr[i]);
+            //  }
+
+//10) - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи 
+
+        //     let arr = ['hi', 2, true, NaN, -83, false, 'boss', undefined, null, 'lond'];
+        //     for (let i = 0; i < arr.length; i++) {
+        //             if (typeof arr[i] === 'boolean') 
+        //                 console.log(arr[i])                        
+        //     }
+
+//11) - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+
+        //         let arr = ['hi', 2, true, NaN, -83, false, 'boss', undefined, null, 'lond'];
+        //         for (let i = 0; i < arr.length; i++) {
+        //             if (typeof arr[i] === 'number') 
+        //                 console.log(arr[i])                        
+        //     }
+
+//12) - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи  
+
+        //         let arr = ['hi', 2, true, NaN, -83, false, 'boss', undefined, null, 'lond'];
+        //         for (let i = 0; i < arr.length; i++) {
+        //             if (typeof arr[i] === 'string') 
+        //                 console.log(arr[i])                        
+        //     }
+
+//13) - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.  
+
+                // let arr = [];
+                // arr[0] = 'nice';
+                // arr[1] = 321;
+                // arr[2] = false;
+                // arr[3] = 'hello'
+                // arr[4] = true;
+                // console.log(arr);
+
+//14) - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+
+                // for (i = 0; i < 10; i++) {
+                //         console.log(i);
+                //         document.write(i);
+                // }
+
+//15) - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+
+
+                // for (i = 0; i < 100; i++) {
+                //         console.log(i);
+                //         document.write(i);
+                // }
+
+//16) - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+
+                // for (i = 0; i < 100; i += 2) {
+                //         console.log(i);
+                //         document.write(i);
+                // }
+
+//17) - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+
+                // for (i = 0; i < 100; i++) {
+                //         if (i % 2 == 0) {
+                //         console.log(i);
+                //         document.write(i);   
+                //         }
+                // }
+
+//18) - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+                // for (i = 0; i < 100; i++) {
+                //         if (i % 2 == 1) {
+                //         console.log(i);
+                //         document.write(i);   
+                //         }
+                // }
+
+//19) - Дано 2 масиви з рівною кількістю об'єктів.
+// Масиви:
+
+                // let usersWithId = [
+                // {id: 1, name: 'vasya', age: 31, status: false},
+                // {id: 2, name: 'petya', age: 30, status: true},
+                // {id: 3, name: 'kolya', age: 29, status: true},
+                // {id: 4, name: 'olya', age: 28, status: false}
+                // ];
+
+                // let citiesWithId = [
+                // {user_id: 3, country: 'USA', city: 'Portland'},
+                // {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+                // {user_id: 2, country: 'Poland', city: 'Krakow'},
+                // {user_id: 4, country: 'USA', city: 'Miami'}
+                // ];  
+
+                // // // Example:
+                // // let usersWithCities = [
+                // // {
+                // // id: 1, // <===
+                // // name: 'vasya',
+                // // age: 31,
+                // // status: false,
+                // // address: {
+                // //         user_id: 1, // <===
+                // //         country: 'Ukraine',
+                // //         city: 'Ternopil'
+                // //         }
+                // // }];
+
+
+                // for (let user of usersWithId) {
+                //         for (let city of citiesWithId) {
+                //                 if (user.id === city.user_id) {
+                //                         user.address = city
+                //                 }
+                //         }
+                // }        
+                // console.log(usersWithId);
+                
+// З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
+// Записати цей об'єкт в новий масив
+
+
+
+//20) - Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
+// - Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
+
+        //       for (m = 0; m < 2; m++) {
+        //               for (s = 0; s < 60; s++) {  
+        //                 console.log(m , s)  
+        //               }
+        //       }    
+
+        //       for (h = 0; h <= 2; h++) {
+        //               for (m = 0; m < 20; m++) { 
+        //                 for (s = 0; s < 60; s++) {
+        //                       console.log(h, m, s);  
+        //                 }
+                        
+        //               }
+        //       }  
+
+   
+
+    </script>
+
+
+
+</body>
+</html>
